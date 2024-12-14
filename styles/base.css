@@ -276,7 +276,7 @@ section{
 .cards {
 	display:grid;
 	grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-	grid-gap:5px;
+	grid-gap:20px;
 	align-items:center;
 }
 
@@ -296,7 +296,7 @@ section{
 
 
 .card img{
-	heifht:75px;
+	height:75px;
 	max-width:100%;
 }
   
