@@ -1,0 +1,70 @@
+@media screen and (min-width:700px){
+
+  .header{
+    display: grid;
+    grid-template-rows: 200px;
+  }
+  
+  #menu{
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+
+  .name{
+    font-size: 1.5em;
+  }
+  
+  
+  .navigation li{
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .navdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-center;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
+
+  .card2{
+    display: flex;
+    flex-direction: column;
+    
+  }
+.card2 table{
+
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1em;
+  
+}
+
+.card1, .card2, .card3{
+  margin: 20px;
+}
+
+.card2 table{
+  margin: 2%;
+  font-size: 1rem;
+}
+
+.title-of-card{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+}

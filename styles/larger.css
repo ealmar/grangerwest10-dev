@@ -1,0 +1,44 @@
+@media screen and (min-width:900px){
+
+  .header{
+    display: grid;
+    grid-template-rows: 200px;
+  }
+  
+  #menu{
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+
+  .name{
+    font-size: 1.5em;
+  }
+  
+  .navigation li{
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  
+
+  .cards {
+    display:flex;
+    flex-direction: row;
+    
+  }
+
+  .card1, .card2, .card3 {
+    margin: 10px;
+  }
+
+
+
+
+}
