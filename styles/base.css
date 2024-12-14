@@ -265,40 +265,33 @@ ul li h3 a{
   '. foot           .';
 }
 
+//organizations section
 
-.card2, .title-of-card{
-  grid-area: title-card2;
-  
+section{
+	border:1 px solid rgba(0,0,0,0.1);
+	padding:0.5rem;
+	background-color:#eee;
+	
+}
+.cards {
+	display:grid;
+	grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap:5px;
+	align-items:center;
+}
+.cards img{
+	border:1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+.cards section > * {
+	margin:0.1rem;
 }
 
-.card2, table{
-  grid-area: image-card2;
 
+.card img{
+	heifht:75px;
+	max-width:100%;
 }
-
-.card2, .text-card{
-  grid-area:footer-card2;
-}
-
-.card2{
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    'title-card2'
-    'image-card2'
-    'footer-card2';
-}
-
-.card1, .card2, .card3{
-
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    
-    margin: 5%;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: #f1f1f1;
-    position: relative;
-  }
   
   
 
@@ -312,36 +305,22 @@ ul li h3 a{
     
   }             
   
-
-.card2 table{
-
-
-  color: black;
-  background-color: rgb(242 247 243);
-
-}
-/*
-  .cards{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-areas: 
-    "card1"
-    "card2"
-    "card3";
+.card h3{
+    top: 30px;
   }
 
-*/
+  .card p {
+    padding:40px;
+  }
 
-  
-  .card-pic{
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
     position: relative;
-    
   }
-    .card-pic img{
-      background-size: cover;
-      max-width: 50%;
-    }
-  
+
   .today{
     position: absolute;
     bottom: 5%;
@@ -403,29 +382,8 @@ ul li h3 a{
 
 
 
-table{
-  display:block;
-  border-collapse: collapse;
-  font-size: .5vm;
-  font-weight: 800;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-
- 
-}
 
 
-
-th,td{
-  border:1px solid black;
-  padding: 8px;
-}
-
-thead th{
-  width: 20%;
-}
 /***** titles ****/
 
 
