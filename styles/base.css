@@ -279,10 +279,17 @@ section{
 	grid-gap:5px;
 	align-items:center;
 }
+
+.cards section{
+	text-align:center;
+}
+
 .cards img{
 	border:1px solid #fff;
 	box-shadow: 0 0 10px #333;
 }
+
+
 .cards section > * {
 	margin:0.1rem;
 }
@@ -293,7 +300,13 @@ section{
 	max-width:100%;
 }
   
-  
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    position: relative;
+  } 
 
  
   .card h3{
@@ -313,6 +326,11 @@ section{
     padding:40px;
   }
 
+ .cards{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -321,6 +339,16 @@ section{
     position: relative;
   }
 
+ .card-pic{
+    position: relative;
+    
+  }
+
+    .card-pic img{
+      height: 100%;
+      width: 100%;
+    }
+  
   .today{
     position: absolute;
     bottom: 5%;
