@@ -68,6 +68,13 @@ html {
 
 }
 
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+
 .navigation li{
   display: none;
 }
